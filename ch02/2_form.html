@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td{
+            margin: auto;
+            border-spacing: 10px 10px;
+        }
+        textarea{
+            width: 100%;
+            height: 6.25em;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center;"><b>연락처 추가</b></h3>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>☆</td>
+                <td><input type="text" placeholder="성" size="1">
+                    <input type="text" placeholder="이름" size="5">
+                    <button type="button" style="background-color: rgb(255, 255, 255);">+상세입력</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="text" placeholder="네이버아이디" size="12">
+                    <input type="text" placeholder="닉네임" size="12"></td>
+            </tr>
+            <tr>
+                <td><b>전화번호</b></td>
+                <td></td>
+                <td><select name="" id="">
+                    <option>휴대폰</option>
+                    <option>집</option>
+                    <input type="text" placeholder="전화번호" size="35">
+                    <button type="button" style="background-color: antiquewhite;">+</button>
+                </select></td>
+            </tr>
+            <tr>
+                <td><b>이메일</b></td>
+                <td></td>
+                <td><input type="text" placeholder="이메일" size="44">
+                    <button type="button" style="background-color: antiquewhite;">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td><b>그룹</b></td>
+                <td></td>
+                <td><button type="button" style="background-color: rgb(255, 255, 255);">그룹설정</button>
+                    <span style="color: gray;">그룹을 설정해주세요</span>
+                </td>
+            </tr>
+            <tr>
+                <td><b>생일.기념일</b></td>
+                <td></td>
+                <td>
+                    <select>
+                        <option>생일</option>
+                    </select>
+                    <input type="text" placeholder="yyyymmdd">
+                    <input type="radio" name="team">양력
+                    <input type="radio" name="team">음력
+                    <button type="button" style="background-color: rgb(252, 252, 252);">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td><b>회사.소속</b></td>
+                <td></td>
+                <td><input type="text" placeholder="회사" size="11">
+                    <input type="text" placeholder="부서" size="11">
+                    <input type="text" placeholder="직책" size="10">
+                    <button type="button" style="background-color: rgb(252, 252, 252);">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td><b>주소</b></td>
+                <td></td>
+                <td><select>
+                    <option>회사</option>
+                    <option>집</option>
+                    </select>
+                    <input type="text" size="9">-<input type="text" size="10">
+                    <button type="button">우편번호</button>
+                    <button type="button" style="background-color: rgb(252, 252, 252);">+</button>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><textarea name="" id="" style="color: gray;">
+                    주소
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><b>홈페이지</b></td>
+                <td></td>
+                <td><input type="text" placeholder="http://" size="44">
+                    <button type="button" style="background-color: rgb(255, 255, 255);">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td><b>메신저.SNS</b></td>
+                <td></td>
+                <td>
+                    <select>
+                        <option>LINE</option>
+                        <option>KAKAOTALK</option>
+                    </select>
+                    <input type="text" placeholder="메신저주소" size="28">
+                    <button type="button" style="background-color: rgb(255, 255, 255);">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td><b>메모</b></td>
+                <td></td>
+                <td>
+                    <textarea style="color: gray;" maxlength="1000">
+                        메모(최대 1,000자)
+                    </textarea>
+                </td>
+            </tr>
+            
+        </thead>
+    </table>
+    
+    <hr>
+    <div style="text-align: center;"><span style="color: gray;">자세히 입력하기▲</span>
+        <hr>
+        <br>
+        <br>
+        <button type="button" style="background-color: white;">저장</button>
+        <button type="button" style="background-color: white;">취소</button>
+        <button type="button" style="background-color: white;">저장 후 계속 추가▶</button>
+    </div>
+    
+</body>
+</html>
